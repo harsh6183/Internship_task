@@ -8,9 +8,9 @@ import WelcomeLoader from './components/WelcomeLoader';
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
   const [users, setUsers] = useState([
-    { id: 1, name: 'Alex Johnson', email: 'alex@example.com' },
-    { id: 2, name: 'Sarah Chen', email: 'sarah@example.com' },
-    { id: 3, name: 'Michael Rodriguez', email: 'michael@example.com' }
+    { id: 1, name: 'Soham Mahajan', email: 'soham@example.com' },
+    { id: 2, name: 'Yash Roy', email: 'yash@example.com' },
+    { id: 3, name: 'Raj Desai', email: 'raj@example.com' }
   ]);
 
   const toggleDarkMode = () => setDarkMode(prev => !prev);

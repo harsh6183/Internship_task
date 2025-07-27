@@ -59,7 +59,7 @@ const SignUpForm = ({ darkMode, onUserAdd }) => {
     
     setIsSubmitting(true);
     
-    // Simulate API call
+    
     setTimeout(() => {
       onUserAdd({
         id: Date.now(),
@@ -69,9 +69,7 @@ const SignUpForm = ({ darkMode, onUserAdd }) => {
       
       setFormData({ fullName: '', email: '', password: '' });
       setIsSubmitting(false);
-      
-      // Show success message
-      alert('User registered successfully!');
+      alert('User registered successfully!'); //User created msg
     }, 1000);
   };
 
