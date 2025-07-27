@@ -75,7 +75,7 @@ const SignUpForm = ({ darkMode, onUserAdd }) => {
 
   return (
     <section id="signup" className={`min-h-screen flex items-center justify-center py-20 ${
-      darkMode ? 'bg-gray-800' : 'bg-gray-50'
+      darkMode ? 'bg-gray-900' : 'bg-gray-50'
     }`}>
       <div className="max-w-md w-full mx-auto px-4">
         <div className={`rounded-2xl shadow-2xl p-8 ${
